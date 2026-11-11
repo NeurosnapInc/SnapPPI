@@ -3,12 +3,12 @@ requires = ["setuptools>=59.6.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pifm"
+name = "snapppi"
 version = "2026.07.03"
 authors = [
   {name="Keaun Amani"},
 ]
-description = "Fast protein-protein interaction and affinity prediction with fine-tuned protein language models."
+description = "SnapPPI: sequence-based protein interaction prediction with frozen protein language model embeddings and lightweight adapters."
 license = {file = "LICENSE"}
 readme = "README.md"
 classifiers = [
@@ -40,8 +40,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/NeurosnapInc/pifm"
-Issues = "https://github.com/NeurosnapInc/pifm/issues"
+Homepage = "https://github.com/NeurosnapInc/SnapPPI"
+Issues = "https://github.com/NeurosnapInc/SnapPPI/issues"
 
 [tool.setuptools]
 py-modules = ["aggregate_data", "calibration", "config", "contract", "migrate_checkpoints", "model", "run_utils", "summarize_runs", "tokenize_data", "train", "validate"]

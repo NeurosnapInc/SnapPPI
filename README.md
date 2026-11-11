@@ -1,4 +1,4 @@
-# Protein Interaction Foundation Model (PIFM)
+# SnapPPI
 > A fast, scalable protein language model for predicting protein-protein interactions (PPI) between arbitrary protein complexes.
 
 ## Overview
@@ -20,7 +20,7 @@ Rather than training an entirely new protein language model, this project builds
 
 > **Project Status**
 >
-> This project is currently in the planning and research phase. The project name is a **working title (WIP)** and will likely change as development progresses.
+> **SnapPPI** is under active research and development.
 >
 > The implementation will follow a modular design philosophy loosely inspired by the Prot2Prop project:
 >
